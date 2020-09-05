@@ -1,0 +1,238 @@
+$BloggerSans:Blogger Sans;
+$Avenir: Avenir;
+//$Comfortaa: Comfortaa;
+$Righteous: Righteous;
+$Vinotinto:rgb(126, 38, 86);
+$Azul:#3683ff;
+$NavColor:#2c3e4f;
+$Blanco:#ffffff;
+$Escarlata:rgb(242, 48, 132);
+$AzulOscuro: rgb(0,34,66);
+
+// Las clases llevan . 
+// los id llevan # 
+// las etiquetas van igual
+
+nav
+{
+    background:$NavColor;
+    //font-family: Montserrat;
+    font-family: $Avenir; 
+    // box-shadow: 0px 0px 5px #999;
+    overflow: hidden;
+    
+    label{
+        font-family: $Righteous; 
+        font-size: 30px;
+        padding-left: 10px;
+        color: $Blanco;
+    }
+
+    ul {
+        //list-style-type: none;
+        //margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      li{
+           float: right;
+        }
+
+      li,a {
+        display: block;
+        color: $Blanco;
+        //text-align: center;
+        padding: 14px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: $Escarlata;
+      }
+
+    }
+
+#About_Me{
+    //background-color: #0066ff;
+    //background-color: #ffffff; 
+    background-color: $Azul;
+    //background-color:#488cfa;
+    text-align: center;
+    //display: block;
+    //position: ;
+    overflow: hidden;
+    // box-shadow: 0px 0px 5px #999;
+    
+    h1{
+        font-family: $BloggerSans;
+        color: $Blanco;
+        font-size: 50px;
+    }
+
+    // p{
+    //     font-family: lato;
+    //     color:#ffffff;
+    //     font-size: 20px;
+    // }
+
+    .img-container-block{
+        // text-align: center;
+        // display: block;
+            img{
+                width:200px;
+                height:200px;
+                //border: 3px solid #2c3e4f;
+                //border: 3px solid #ffffff;
+                border: 3px solid $Vinotinto;
+                border-radius: 103px; //valor = mitad (width-heigth) + borde + padding 
+                //box-shadow: 0px 0px 5px #999;
+                box-shadow: 0px 0px 5px;
+            }  
+            
+    }
+    
+}
+
+.h2White{
+    font-family: $BloggerSans;
+    color: $Blanco;
+    font-size: 40px;
+}
+
+.h2Blue{
+    font-family: $BloggerSans;
+    color: $AzulOscuro;
+    font-size: 40px;
+}
+
+.PStyle{
+    
+    //font-family: Averta Demo PE;
+    //font-family: Gill Sans;
+    // font-family: Comfortaa;
+    //font-family: Lato;
+    //font-family: Josefin Sans;
+    font-family: $Avenir;
+    font-size: 19px;
+    color:$Blanco;
+    margin-right: 250px;
+    margin-left: 250px;
+    text-align: justify;
+}
+
+.PStyle_2{
+    font-family: $Avenir;
+    font-size: 19px;
+    color:$AzulOscuro; 
+    margin-right: 250px;
+    margin-left: 250px;
+    text-align: justify;
+}
+
+
+#Education{
+    //background-color: #fff056; 
+    text-align: center;
+    overflow: hidden;
+    //display: block;
+    // box-shadow: 0px 0px 5px #999;
+    //position: absolute;
+
+}
+
+#Courses
+{
+    text-align: center;
+    overflow: hidden;
+    background-color: $Azul;
+
+    table {
+        border: 2px solid $Azul;
+        box-shadow: 0px 0px 3px;
+        border-collapse: collapse;
+        width: 800px;
+        margin-right: 245px;
+        margin-left: 245px;
+        margin-bottom: 70px;
+        color:$Blanco;
+        
+    }
+
+    th,td {
+        border: 1px solid $Azul;
+        padding: 10px;
+        text-align: center;
+        font-family: $Avenir;
+        width: 600px;
+        font-size: 19px;
+        color:$AzulOscuro;
+        background-color: white;
+    }
+
+    .BackgroundCompleted{
+        background-color:#3bff6f;
+        border-radius: 5px;
+    }
+    .BackgroundInCourse{
+        background-color:#ffdf3d;
+        border-radius: 5px;
+    }
+
+    
+}
+
+#References{
+    text-align: center;
+    overflow: hidden;
+    }
+
+#Events{
+    
+    text-align: center;
+    overflow: hidden;
+    background-color: $Azul;
+
+    p  {
+        //background-color:#f7f7f7;
+        //border-radius: 20px;
+        padding-left: 8px;
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-bottom: 40px;
+        width: 500px;
+
+        .EventImgs{
+            width:40%;
+            height:20%;
+            //border: 3px solid #2c3e4f;
+            //border: 3px solid #ffffff;
+            //border: 3px solid transparent;
+            //border-radius: 53px; //valor = mitad (width-heigth) + borde + padding 
+            //box-shadow: 0px 0px 5px;
+            //margin-top: 1px;
+        }
+    }
+ }
+    
+#Contact{
+
+    background: $NavColor;
+    text-align: center;
+    overflow: hidden;
+   
+    li{
+        display: inline;
+    }
+    .Icons{
+        width: 5% ;     
+    }
+}
+
+
+
+    
+
+
+

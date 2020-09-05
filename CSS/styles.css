@@ -1,0 +1,151 @@
+nav {
+  background: #2c3e4f;
+  font-family: Avenir;
+  overflow: hidden;
+  /* Change the link color to #111 (black) on hover */
+}
+nav label {
+  font-family: Righteous;
+  font-size: 30px;
+  padding-left: 10px;
+  color: #ffffff;
+}
+nav ul {
+  padding: 0;
+  overflow: hidden;
+}
+nav li {
+  float: right;
+}
+nav li, nav a {
+  display: block;
+  color: #ffffff;
+  padding: 14px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #f23084;
+}
+
+#About_Me {
+  background-color: #3683ff;
+  text-align: center;
+  overflow: hidden;
+}
+#About_Me h1 {
+  font-family: Blogger Sans;
+  color: #ffffff;
+  font-size: 50px;
+}
+#About_Me .img-container-block img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid #7e2656;
+  border-radius: 103px;
+  box-shadow: 0px 0px 5px;
+}
+
+.h2White {
+  font-family: Blogger Sans;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.h2Blue {
+  font-family: Blogger Sans;
+  color: #002242;
+  font-size: 40px;
+}
+
+.PStyle {
+  font-family: Avenir;
+  font-size: 19px;
+  color: #ffffff;
+  margin-right: 250px;
+  margin-left: 250px;
+  text-align: justify;
+}
+
+.PStyle_2 {
+  font-family: Avenir;
+  font-size: 19px;
+  color: #002242;
+  margin-right: 250px;
+  margin-left: 250px;
+  text-align: justify;
+}
+
+#Education {
+  text-align: center;
+  overflow: hidden;
+}
+
+#Courses {
+  text-align: center;
+  overflow: hidden;
+  background-color: #3683ff;
+}
+#Courses table {
+  border: 2px solid #3683ff;
+  box-shadow: 0px 0px 3px;
+  border-collapse: collapse;
+  width: 800px;
+  margin-right: 245px;
+  margin-left: 245px;
+  margin-bottom: 70px;
+  color: #ffffff;
+}
+#Courses th, #Courses td {
+  border: 1px solid #3683ff;
+  padding: 10px;
+  text-align: center;
+  font-family: Avenir;
+  width: 600px;
+  font-size: 19px;
+  color: #002242;
+  background-color: white;
+}
+#Courses .BackgroundCompleted {
+  background-color: #3bff6f;
+  border-radius: 5px;
+}
+#Courses .BackgroundInCourse {
+  background-color: #ffdf3d;
+  border-radius: 5px;
+}
+
+#References {
+  text-align: center;
+  overflow: hidden;
+}
+
+#Events {
+  text-align: center;
+  overflow: hidden;
+  background-color: #3683ff;
+}
+#Events p {
+  padding-left: 8px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 40px;
+  width: 500px;
+}
+#Events p .EventImgs {
+  width: 40%;
+  height: 20%;
+}
+
+#Contact {
+  background: #2c3e4f;
+  text-align: center;
+  overflow: hidden;
+}
+#Contact li {
+  display: inline;
+}
+#Contact .Icons {
+  width: 5%;
+}
+
+/*# sourceMappingURL=styles.css.map */
