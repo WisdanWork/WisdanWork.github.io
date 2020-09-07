@@ -1,12 +1,11 @@
-$BloggerSans:Blogger Sans;
-$Avenir: Avenir;
-//$Comfortaa: Comfortaa;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
+$Nunito: Nunito;
 $Righteous: Righteous;
 $Vinotinto:rgb(126, 38, 86);
 $Azul:#3683ff;
-$NavColor:#2c3e4f;
 $Blanco:#ffffff;
-$Escarlata:rgb(242, 48, 132);
 $AzulOscuro: rgb(0,34,66);
 
 // Las clases llevan . 
@@ -15,10 +14,8 @@ $AzulOscuro: rgb(0,34,66);
 
 nav
 {
-    background:$NavColor;
-    //font-family: Montserrat;
-    font-family: $Avenir; 
-    // box-shadow: 0px 0px 5px #999;
+    background:$Azul;
+    font-family:$Nunito; 
     overflow: hidden;
     
     label{
@@ -49,7 +46,7 @@ nav
       
       /* Change the link color to #111 (black) on hover */
       li a:hover {
-        background-color: $Escarlata;
+        background-color: $Vinotinto;
       }
 
     }
@@ -66,16 +63,11 @@ nav
     // box-shadow: 0px 0px 5px #999;
     
     h1{
-        font-family: $BloggerSans;
+        font-family: $Nunito;
+        font-style: Bold;
         color: $Blanco;
         font-size: 50px;
     }
-
-    // p{
-    //     font-family: lato;
-    //     color:#ffffff;
-    //     font-size: 20px;
-    // }
 
     .img-container-block{
         // text-align: center;
@@ -96,25 +88,20 @@ nav
 }
 
 .h2White{
-    font-family: $BloggerSans;
+    font-family: $Nunito;
     color: $Blanco;
     font-size: 40px;
 }
 
 .h2Blue{
-    font-family: $BloggerSans;
+    font-family: $Nunito;
     color: $AzulOscuro;
     font-size: 40px;
 }
 
 .PStyle{
     
-    //font-family: Averta Demo PE;
-    //font-family: Gill Sans;
-    // font-family: Comfortaa;
-    //font-family: Lato;
-    //font-family: Josefin Sans;
-    font-family: $Avenir;
+    font-family:$Nunito;
     font-size: 19px;
     color:$Blanco;
     margin-right: 250px;
@@ -123,7 +110,7 @@ nav
 }
 
 .PStyle_2{
-    font-family: $Avenir;
+    font-family:$Nunito;
     font-size: 19px;
     color:$AzulOscuro; 
     margin-right: 250px;
@@ -164,7 +151,7 @@ nav
         border: 1px solid $Azul;
         padding: 10px;
         text-align: center;
-        font-family: $Avenir;
+        font-family:$Nunito;
         width: 600px;
         font-size: 19px;
         color:$AzulOscuro;
@@ -218,7 +205,7 @@ nav
     
 #Contact{
 
-    background: $NavColor;
+    background-color: $Vinotinto;
     text-align: center;
     overflow: hidden;
    
@@ -226,7 +213,12 @@ nav
         display: inline;
     }
     .Icons{
-        width: 5% ;     
+        width: 6%;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 70%;
+        box-shadow: 0px 0px 5px;
+        margin-right: 50px;
     }
 }
 
